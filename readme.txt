@@ -3,7 +3,7 @@ Contributors: vanderwijk
 Author link: https://vanderwijk.com
 Tags: disable, updates, core update, plugin update, theme update
 Requires at least: 3.0
-Tested up to: 5.5.1
+Tested up to: 5.6
 Stable tag: 1.2.2
 
 Disables the WordPress update checking and notification system.
