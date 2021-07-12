@@ -4,7 +4,7 @@ Plugin Name:  Disable Updates
 Description:  Prevents users from updating the WordPress core, plugins and themes
 Plugin URI:   https://vanderwijk.com/
 Donate link:  https://www.paypal.me/vanderwijk
-Version:      1.2.4
+Version:      1.2.5
 Author:       Johan van der Wijk
 Author URI:   https://vanderwijk.com/
 Text Domain:  disable-updates
