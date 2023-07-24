@@ -3,8 +3,8 @@ Contributors: vanderwijk
 Author link: https://vanderwijk.com
 Tags: disable, updates, core update, plugin update, theme update
 Requires at least: 3.0
-Tested up to: 6.2
-Stable tag: 1.2.7
+Tested up to: 6.3
+Stable tag: 1.2.9
 
 Disables the WordPress update checking and notification system.
 
@@ -30,11 +30,10 @@ This plugin not only disables the update mechanism for the core, plugins and the
 
 No, keeping WordPress up-to-date is very important for security reasons. You should only install this plugin if you keep your system up to date using another mechanism such as a staging server or svn.
 
-== Upgrade Notice ==
-
-First version
-
 == Changelog ==
+
+= 1.2.9 =
+WordPress 6.3 compatibility tested
 
 = 1.2.5 =
 WordPress 5.8 compatibility tested
@@ -46,5 +45,6 @@ PHP 7.2 compatibility update
 Added `automatic_updater_disabled` filter
 
 = 1.0 =
-* Initial release
+Initial release
 
+== Upgrade Notice ==
