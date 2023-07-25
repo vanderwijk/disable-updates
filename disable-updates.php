@@ -1,6 +1,6 @@
 <?php
 /*
-Plugin Name:  Disable Updates - Disable WordPress core, plugin and theme updates
+Plugin Name:  Disable Updates for WordPress core, plugins and themes
 Description:  A simple plugin that prevents updating the WordPress core, plugins and themes
 Plugin URI:   https://vanderwijk.com/
 Donate link:  https://www.paypal.me/vanderwijk
@@ -44,7 +44,7 @@ function disable_updates () {
 	// Disable core updates
 	remove_action ( 'load-update-core.php', 'wp_update_core' );
 	add_filter ( 'pre_site_transient_update_core', '__return_null' );
-	
+
 	// Disable theme updates
 	remove_action ( 'load-update-core.php', 'wp_update_themes' );
 	add_filter ( 'pre_site_transient_update_themes', '__return_null' );
