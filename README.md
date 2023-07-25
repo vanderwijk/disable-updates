@@ -1,15 +1,14 @@
 # disable-updates
 
+=== Disable Updates ===  
+Contributors: vanderwijk  
+Author link: https://vanderwijk.com  
+Tags: disable, updates, core update, plugin update, theme update  
+Requires at least: 3.0  
+Tested up to: 6.3  
+Stable tag: 1.3.0  
 
-=== Disable Updates ===
-Contributors: vanderwijk
-Author link: https://vanderwijk.com
-Tags: disable, updates, core update, plugin update, theme update
-Requires at least: 3.0
-Tested up to: 6.3
-Stable tag: 1.3.0
-
-Disables the WordPress update checking and notification system.
+Disables the WordPress update checking and notification system for all core, plugin and theme updates.
 
 == Description ==
 
