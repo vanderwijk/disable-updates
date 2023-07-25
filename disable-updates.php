@@ -1,13 +1,13 @@
 <?php
 /*
-Plugin Name:  Disable Updates for WordPress core, plugins and themes
-Description:  A simple plugin that prevents updating the WordPress core, plugins and themes
+Plugin Name:  Disable Updates
+Description:  A simple plugin that prevents updating the WordPress core, plugins and themes.
 Plugin URI:   https://vanderwijk.com/
 Donate link:  https://www.paypal.me/vanderwijk
-Version:      1.2.9
+Version:      1.3.0
 Author:       Johan van der Wijk
 Author URI:   https://vanderwijk.com/
-Text Domain:  disable-updates
+Text Domain:  du
 Domain Path:  /languages
 License: GPL2
 
@@ -22,6 +22,17 @@ License: GPL2
 	GNU General Public License for more details.
 
 */
+
+
+// Add donation and review links to plugin description
+function du_plugin_links ( $links, $file ) {
+	$base = plugin_basename( __FILE__ );
+	if ( $file == $base ) {
+		$links[] = '<a href="https://wordpress.org/support/plugin/disable-updates/reviews/#new-post" target="_blank">' . __( 'Review', 'du' ) . ' <span class="dashicons dashicons-thumbs-up"></span></a> | <a href="https://paypal.me/vanderwijk">' . __( 'Donate', 'du' ) . ' <span class="dashicons dashicons-money"></span></a>';
+	}
+	return $links;
+}
+add_filter ( 'plugin_row_meta', 'du_plugin_links', 10, 2 );
 
 // Hides all upgrade notices
 function hide_admin_notices () {
