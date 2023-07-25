@@ -1,8 +1,8 @@
 name: Deploy assets/readme to WordPress.org
 on:
   push:
-    branches:
-    - master
+    tags:
+    - "*"
 jobs:
   trunk:
     name: Push to trunk
