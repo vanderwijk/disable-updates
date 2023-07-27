@@ -1,4 +1,4 @@
-name: Deploy assets to WordPress.org
+name: Deploy plugin to WordPress.org
 on:
   push:
     tags:
