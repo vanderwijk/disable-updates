@@ -8,6 +8,7 @@ Version:      1.3.4
 Author:       Johan van der Wijk
 Author URI:   https://vanderwijk.com/
 Text Domain:  disable-updates
+Domain Path: /languages
 License: GPL2
 
 	This program is free software; you can redistribute it and/or modify

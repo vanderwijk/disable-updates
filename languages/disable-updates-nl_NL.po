@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Disable Updates\n"
-"POT-Creation-Date: 2023-07-27 14:32+0200\n"
-"PO-Revision-Date: 2023-07-27 14:32+0200\n"
+"POT-Creation-Date: 2023-07-27 16:08+0200\n"
+"PO-Revision-Date: 2023-07-27 16:08+0200\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: nl_NL\n"
@@ -33,9 +33,8 @@ msgid "Disable Updates"
 msgstr "Disable Updates"
 
 #. Plugin URI of the plugin/theme
-#. Author URI of the plugin/theme
-msgid "https://vanderwijk.com/"
-msgstr "https://vanderwijk.com"
+msgid "https://wordpress.org/plugins/disable-updates/"
+msgstr "https://wordpress.org/plugins/disable-updates/"
 
 #. Description of the plugin/theme
 msgid ""
@@ -48,3 +47,7 @@ msgstr ""
 #. Author of the plugin/theme
 msgid "Johan van der Wijk"
 msgstr "Johan van der Wijk"
+
+#. Author URI of the plugin/theme
+msgid "https://vanderwijk.com/"
+msgstr "https://vanderwijk.com"
