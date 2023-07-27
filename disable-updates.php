@@ -2,7 +2,7 @@
 /*
 Plugin Name:  Disable Updates
 Description:  A simple plugin that prevents updating the WordPress core, plugins and themes.
-Plugin URI:   https://vanderwijk.com/
+Plugin URI:   https://wordpress.org/plugins/disable-updates/
 Donate link:  https://www.paypal.me/vanderwijk
 Version:      1.3.4
 Author:       Johan van der Wijk
@@ -35,19 +35,19 @@ function du_plugin_links ( $links, $file ) {
 add_filter ( 'plugin_row_meta', 'du_plugin_links', 10, 2 );
 
 // Hides all upgrade notices
-function hide_admin_notices () {
+function du_hide_admin_notices () {
 	remove_action ( 'admin_notices', 'update_nag', 3 );
 }
-add_action ( 'admin_menu','hide_admin_notices' );
+add_action ( 'admin_menu','du_hide_admin_notices' );
 
 // Remove the 'Updates' menu item from the admin interface
-function remove_menus () {
+function du_remove_menus () {
 	global $submenu;
 	remove_submenu_page ( 'index.php', 'update-core.php' );
 }
-add_action ( 'admin_menu', 'remove_menus', 102 );
+add_action ( 'admin_menu', 'du_remove_menus', 102 );
 
-function disable_updates () {
+function du_disable_updates () {
 
 	// Disable all automatic updates
 	add_filter ( 'automatic_updater_disabled', '__return_true' );
@@ -72,4 +72,4 @@ function disable_updates () {
 	});
 
 }
-add_action ( 'init', 'disable_updates', 1 );
+add_action ( 'init', 'du_disable_updates', 1 );
