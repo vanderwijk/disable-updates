@@ -7,7 +7,7 @@ Donate link:  https://www.paypal.me/vanderwijk
 Version:      1.3.2
 Author:       Johan van der Wijk
 Author URI:   https://vanderwijk.com/
-Text Domain:  du
+Text Domain:  disable-updates
 Domain Path:  /languages
 License: GPL2
 
@@ -28,7 +28,7 @@ License: GPL2
 function du_plugin_links ( $links, $file ) {
 	$base = plugin_basename( __FILE__ );
 	if ( $file == $base ) {
-		$links[] = '<a href="https://wordpress.org/support/plugin/disable-updates/reviews/#new-post" target="_blank">' . __( 'Review', 'du' ) . ' <span class="dashicons dashicons-thumbs-up"></span></a> | <a href="https://paypal.me/vanderwijk">' . __( 'Donate', 'du' ) . ' <span class="dashicons dashicons-money"></span></a>';
+		$links[] = '<a href="https://wordpress.org/support/plugin/disable-updates/reviews/#new-post" target="_blank">' . __( 'Review', 'disable-updates' ) . ' <span class="dashicons dashicons-thumbs-up"></span></a> | <a href="https://paypal.me/vanderwijk">' . __( 'Donate', 'disable-updates' ) . ' <span class="dashicons dashicons-money"></span></a>';
 	}
 	return $links;
 }
