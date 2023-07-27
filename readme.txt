@@ -29,7 +29,7 @@ This plugin not only disables the update mechanism for the core, plugins and the
 
 = I am not sure what this plugin does, should I be using it? =
 
-No, keeping WordPress up-to-date is very important for security reasons. You should only install this plugin if you keep your system up to date using another mechanism such as a staging server or svn.
+No, keeping WordPress up-to-date is very important for security reasons. You should only disable WordPress updates if you keep your system up to date using another mechanism such as a staging server or svn.
 
 = Can I submit a feature request or bug report? =
 
