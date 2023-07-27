@@ -3,7 +3,7 @@
 === Disable Updates ===  
 Contributors: vanderwijk  
 Donate link:  https://www.paypal.me/vanderwijk  
-Tags: disable, updates, core update, plugin update, theme update  
+Tags: disable updates, disable, updates, core update, plugin update, theme update  
 Requires PHP: 7.0  
 Requires at least: 3.0  
 Tested up to: 6.3  
