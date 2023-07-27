@@ -1,6 +1,6 @@
 # disable-updates
 
-=== Disable Updates ===  
+=== Disable Updates for WordPress Core, Plugins and Themes ===  
 Contributors: vanderwijk  
 Donate link:  https://www.paypal.me/vanderwijk  
 Tags: disable updates, disable, updates, plugin update, theme update, core update  
