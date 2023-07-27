@@ -1,7 +1,8 @@
 === Disable Updates ===  
 Contributors: vanderwijk  
-Author link: https://vanderwijk.com  
+Donate link:  https://www.paypal.me/vanderwijk  
 Tags: disable, updates, core update, plugin update, theme update  
+Requires PHP: 7.0  
 Requires at least: 3.0  
 Tested up to: 6.3  
 Stable tag: 1.3.4  
@@ -30,6 +31,10 @@ This plugin not only disables the update mechanism for the core, plugins and the
 
 No, keeping WordPress up-to-date is very important for security reasons. You should only install this plugin if you keep your system up to date using another mechanism such as a staging server or svn.
 
+= Can I submit a feature request or bug report? =
+
+Yes, please use the [support forum](https://wordpress.org/support/plugin/disable-updates/) to report any issues you may have. You can submit code suggestions in the [GitHub repository](https://github.com/vanderwijk/disable-updates).
+
 == Changelog ==
 
 = 1.3.4 =
@@ -57,3 +62,6 @@ Added `automatic_updater_disabled` filter
 Initial release
 
 == Upgrade Notice ==
+
+= 1.3.4 =
+Corrected translation filenames, no changed to functionality
