@@ -37,31 +37,31 @@ Yes, please use the [support forum](https://wordpress.org/support/plugin/disable
 
 == Changelog ==
 
-= 1.3.4 =
+= 1.3.4 =  
 Corrected translation filenames
 
-= 1.3.2 =
+= 1.3.2 =  
 Disable update health check
 
-= 1.3.0 =
+= 1.3.0 =  
 Added translation support
 
-= 1.2.9 =
+= 1.2.9 =  
 WordPress 6.3 compatibility tested
 
-= 1.2.5 =
+= 1.2.5 =  
 WordPress 5.8 compatibility tested
 
-= 1.2 =
+= 1.2 =  
 PHP 7.2 compatibility update
 
-= 1.1 =
+= 1.1 =  
 Added `automatic_updater_disabled` filter
 
-= 1.0 =
+= 1.0 =  
 Initial release
 
 == Upgrade Notice ==
 
-= 1.3.4 =
+= 1.3.4 =  
 Corrected translation filenames, no changed to functionality
