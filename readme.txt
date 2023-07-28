@@ -37,6 +37,9 @@ Yes, please use the [support forum](https://wordpress.org/support/plugin/disable
 
 == Changelog ==
 
+= 1.3.5 =  
+Changed minimum WordPress version to 4.6
+
 = 1.3.4 =  
 Corrected translation filenames
 
