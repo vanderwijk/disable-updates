@@ -1,11 +1,11 @@
-=== Disable Updates for WordPress Core, Plugins and Themes ===  
-Contributors: vanderwijk  
-Donate link:  https://www.paypal.me/vanderwijk  
-Tags: disable updates, disable, updates, plugin update, theme update, core update  
-Requires PHP: 7.0  
-Requires at least: 4.6  
-Tested up to: 6.3  
-Stable tag: 1.3.5  
+=== Disable Updates for WordPress Core, Plugins and Themes ===
+Contributors: vanderwijk
+Donate link: https://www.paypal.me/vanderwijk
+Tags: disable updates, disable, updates, plugin update, theme update, core update
+Requires PHP: 7.0
+Requires at least: 4.6
+Tested up to: 6.3
+Stable tag: 1.3.5
 
 Disables the WordPress update checking and notification system for all core, plugin and theme updates.
 
@@ -37,34 +37,34 @@ Yes, please use the [support forum](https://wordpress.org/support/plugin/disable
 
 == Changelog ==
 
-= 1.3.5 =  
+= 1.3.5 =
 Changed minimum WordPress version to 4.6
 
-= 1.3.4 =  
+= 1.3.4 =
 Corrected translation filenames
 
-= 1.3.2 =  
+= 1.3.2 =
 Disable update health check
 
-= 1.3.0 =  
+= 1.3.0 =
 Added translation support
 
-= 1.2.9 =  
+= 1.2.9 =
 WordPress 6.3 compatibility tested
 
-= 1.2.5 =  
+= 1.2.5 =
 WordPress 5.8 compatibility tested
 
-= 1.2 =  
+= 1.2 =
 PHP 7.2 compatibility update
 
-= 1.1 =  
+= 1.1 =
 Added `automatic_updater_disabled` filter
 
-= 1.0 =  
+= 1.0 =
 Initial release
 
 == Upgrade Notice ==
 
-= 1.3.5 =  
+= 1.3.5 =
 Changed minimum WordPress version to 4.6 to enable translations via https://translate.wordpress.org/projects/wp-plugins/disable-updates/
