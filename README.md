@@ -7,7 +7,7 @@ Tags: disable updates, disable, updates, plugin update, theme update, core updat
 Requires PHP: 7.0  
 Requires at least: 4.6  
 Tested up to: 6.3  
-Stable tag: 1.3.4  
+Stable tag: 1.3.5  
 
 Disables the WordPress update checking and notification system for all core, plugin and theme updates.
 
@@ -39,6 +39,9 @@ Yes, please use the [support forum](https://wordpress.org/support/plugin/disable
 
 == Changelog ==
 
+= 1.3.5 =  
+Changed minimum WordPress version to 4.6
+
 = 1.3.4 =  
 Corrected translation filenames
 
@@ -65,5 +68,5 @@ Initial release
 
 == Upgrade Notice ==
 
-= 1.3.4 =  
-Corrected translation filenames, no changed to functionality
+= 1.3.5 =  
+Changed minimum WordPress version to 4.6 to enable translations via https://translate.wordpress.org/projects/wp-plugins/disable-updates/
