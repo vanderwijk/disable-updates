@@ -3,7 +3,7 @@ Contributors: vanderwijk
 Donate link:  https://www.paypal.me/vanderwijk  
 Tags: disable updates, disable, updates, plugin update, theme update, core update  
 Requires PHP: 7.0  
-Requires at least: 3.0  
+Requires at least: 4.6  
 Tested up to: 6.3  
 Stable tag: 1.3.4  
 

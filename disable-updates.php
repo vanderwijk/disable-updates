@@ -1,28 +1,18 @@
 <?php
 /*
-Plugin Name:  Disable Updates
-Description:  A simple plugin that prevents updating the WordPress core, plugins and themes.
-Plugin URI:   https://wordpress.org/plugins/disable-updates/
-Donate link:  https://www.paypal.me/vanderwijk
-Version:      1.3.4
-Author:       Johan van der Wijk
-Author URI:   https://vanderwijk.com/
-Text Domain:  disable-updates
-Domain Path: /languages
-License: GPL2
 
-	This program is free software; you can redistribute it and/or modify
-	it under the terms of the GNU General Public License as published by
-	the Free Software Foundation; either version 2 of the License, or
-	(at your option) any later version.
-
-	This program is distributed in the hope that it will be useful,
-	but WITHOUT ANY WARRANTY; without even the implied warranty of
-	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-	GNU General Public License for more details.
+Plugin Name:    Disable Updates
+Plugin URI:     https://wordpress.org/plugins/disable-updates/
+Description:    A simple plugin that prevents updating the WordPress core, plugins and themes.
+Version:        1.3.4
+Author:         Johan van der Wijk
+Author URI:     https://vanderwijk.com/
+License:        GPL-2.0+
+License URI:    http://www.gnu.org/licenses/gpl-2.0.txt
+Text Domain:    disable-updates
+Domain Path:    /languages
 
 */
-
 
 // Add donation and review links to plugin description
 function du_plugin_links ( $links, $file ) {
