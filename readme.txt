@@ -38,7 +38,7 @@ Yes, please use the [support forum](https://wordpress.org/support/plugin/disable
 == Changelog ==
 
 = 1.3.6 =
-Using `add_filter ( 'pre_site_transient_update_core', '__return_null' );` slowed down the admin dashboard because it invalidated the transient. Added `du_last_checked function` to fake last update check which tricks WordPress into thinking the check has happened and nothing needs to be updated.
+Using `add_filter ( 'pre_site_transient_update_core', '__return_null' );` slowed down the admin dashboard because it invalidated the transient. Added `du_last_checked` function to fake last update check which tricks WordPress into thinking the check has happened and nothing needs to be updated.
 
 = 1.3.5 =
 Changed minimum WordPress version to 4.6
