@@ -37,7 +37,9 @@ function filter_cron_events ( $event ) {
 	if ( in_array ( $event -> hook, $ignore ) ) {
 		return false;
 	}
+
 	return $event;
+
 }
 add_action ( 'schedule_event', 'filter_cron_events' );
 
