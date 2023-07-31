@@ -5,7 +5,7 @@ Tags: disable updates, disable, updates, plugin update, theme update, core updat
 Requires PHP: 5.6
 Requires at least: 4.6
 Tested up to: 6.3
-Stable tag: 1.3.5
+Stable tag: 1.3.6
 
 Disables the WordPress update checking and notification system for all core, plugin and theme updates.
 
@@ -37,6 +37,9 @@ Yes, please use the [support forum](https://wordpress.org/support/plugin/disable
 
 == Changelog ==
 
+= 1.3.6 =
+Using `add_filter ( 'pre_site_transient_update_core', '__return_null' );` slowed down the admin dashboard because it invalidated the transient. Added `du_last_checked function` to fake last update check which tricks WordPress into thinking the check has happened and nothing needs to be updated.
+
 = 1.3.5 =
 Changed minimum WordPress version to 4.6
 
@@ -66,5 +69,5 @@ Initial release
 
 == Upgrade Notice ==
 
-= 1.3.5 =
-Changed minimum WordPress version to 4.6 to enable translations via https://translate.wordpress.org/projects/wp-plugins/disable-updates/
+= 1.3.6 =
+Massive dashboard speed improvement by faking last update check
