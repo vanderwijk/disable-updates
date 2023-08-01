@@ -13,11 +13,11 @@ Disables the WordPress update checking and notification system for all core, plu
 
 This plugin disables all WordPress updates (core, plugins and themes). This can be useful if you have multiple environments such as a live and staging server and you don't want your users to use the update functionality.
 
-This plugin not only disables the update mechanism for the core, plugins and themes, but it also removes the update menu item from the left navigation menu in the admin.
+This plugin not only disables the update mechanism for the core, plugins and themes, but it also removes the update menu item from the left navigation menu in the admin dashboard.
 
 == Screenshots ==
 
-1. WordPress admin before activating the plugin.
+1. WordPress dashboard before activating the plugin.
 2. After activating the plugin all update notices are disabled.
 
 == Installation ==
