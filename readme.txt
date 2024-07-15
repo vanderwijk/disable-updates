@@ -1,11 +1,13 @@
 === Disable Updates for WordPress Core, Plugins and Themes ===
 Contributors: vanderwijk
 Donate link: https://www.paypal.me/vanderwijk
-Tags: disable updates, disable, updates, plugin update, theme update, core update
+Tags: disable updates, updates, plugin update, theme update, core update
 Requires PHP: 5.6
 Requires at least: 4.6
 Tested up to: 6.6
 Stable tag: 1.3.9
+License: GPLv2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
 Disables the WordPress update checking and notification system for all core, plugin and theme updates.
 
